@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" /> <!--content Encoding-->
+    <meta name="description" content="Scientif tools store" />
+    <title>Pen Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="Pen_CSS/master.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Righteous&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <link href='https://css.gg/c' rel='stylesheet'>
+</head>
+
+<body>
+    <a id="home"></a>
+    <a href="index.html" id="home"><i class="bi bi-house-fill"></i></a>
+    <div class="sign_up">
+        <form id="signUp" action="index.html">
+            <div class="Updata">
+                <h1>sign up</h1>
+                <div class="user-data">
+                    <i class="bi bi-person-circle"></i>
+                    <input id="fn" type="text" name="un" required />
+                    <label for="fn">First Name</label>
+                </div>
+                <div class="user-data">
+                    <i class="bi bi-person-circle"></i>
+                    <input id="ln" type="text" name="un" required />
+                    <label for="ln">Last Name</label>
+                </div>
+                <div class="mail-data">
+                    <i class="fa-solid fa-at"></i>
+                    <input id="mail" type="email" name="mail" required placeholder=" " />
+                    <label for="mail">email</label>
+                </div>
+                <div class="country">
+                    <select name="country">
+                        <option selected disabled hidden>Country</option>
+                        <optgroup label="Africa">
+                            <option>Egypt</option>
+                            <option>Morocco</option>
+                            <option>Tunisia</option>
+                        </optgroup>
+                        <optgroup label="Europe">
+                            <option>France</option>
+                            <option>Germany</option>
+                            <option>Italy</option>
+                        </optgroup>
+                        <optgroup label="America">
+                            <option>USA</option>
+                            <option>Canada</option>
+                            <option>Mexico</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div class="pass-data">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="checkbox" id="eye-toggle" class="eye-checkbox">
+                    <input id="pass" type="text" class="sec-pass" name="pass" required minlength="8" maxlength="16"
+                        placeholder=" " />
+                    <label for="pass">password</label>
+                    <label for="eye-toggle" class="eye-btn">
+                        <i class="bi bi-eye open-eye"></i>
+                        <i class="bi bi-eye-slash closed-eye"></i>
+                    </label>
+                </div>
+                <div class="signUp-icon">
+                    <input type="submit" value="Create Account" />
+                    <i class="bi bi-person-plus-fill"></i>
+                </div>
+            </div>
+        </form>
+        <div class="logo">
+            <img src="images/Logo.png" alt="Logo">
+        </div>
+    </div>
+</body>
